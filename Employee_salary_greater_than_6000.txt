@@ -1,0 +1,7 @@
+"Name","Department","Salary"
+"John Doe","Engineering","75000"
+"Jane Smith","Marketing","65000"
+"Bob Johnson","Engineering","80000"
+"Michael Brown","Marketing","72000"
+"Laura Wilson","Engineering","85000"
+"Patricia Young","Engineering","90000"
