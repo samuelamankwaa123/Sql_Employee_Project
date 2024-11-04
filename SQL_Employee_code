@@ -1,0 +1,42 @@
+SELECT * FROM employees;
+ALTER TABLE employees RENAME COLUMN c1 TO EmployeeID;
+ALTER TABLE employees RENAME COLUMN c2 TO Name;
+ALTER TABLE employees RENAME COLUMN c3 TO Department;
+ALTER TABLE employees RENAME COLUMN c4 TO Salary;
+ALTER TABLE employees RENAME COLUMN c5 TO JoiningDate;
+SELECT Name, Department, Salary
+
+SELECT * FROM employees;
+WHERE Department = 'Engineering'
+
+SELECT Department, AVG(Salary) AS AverageSalary
+FROM employees
+GROUP BY Department;
+
+SELECT Name, JoiningDate
+FROM employees
+WHERE JoiningDate > '2019-01-01'
+
+SELECT Department, MAX(Salary) AS HighestSalary
+FROM employees
+GROUP BY Department;
+
+SELECT Name, Salary
+FROM employees
+ORDER BY Salary DESC
+LIMIT 4;
+
+SELECT Department, COUNT(*) AS NumberOfEmployees
+FROM employees
+GROUP BY Department;
+
+SELECT * FROM employees ORDER BY Salary DESC;
+
+SELECT Name, Department, Salary
+FROM employees
+WHERE Salary > 60000;
+
+UPDATE employees
+SET Salary = 70000
+WHERE Name = 'John Doe';
+
