@@ -1,0 +1,6 @@
+"Name","JoiningDate"
+"Jane Smith","2019-05-20"
+"Alice Williams","2020-02-05"
+"Laura Wilson","2021-06-22"
+"David Lee","2020-10-30"
+"Mary Clark","2019-04-14"
