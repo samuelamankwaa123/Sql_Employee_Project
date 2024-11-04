@@ -1,0 +1,5 @@
+"Department","Salary"
+"Engineering","90000"
+"HR","60000"
+"Marketing","72000"
+"Sales","55000"
