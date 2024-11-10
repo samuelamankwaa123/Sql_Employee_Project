@@ -36,7 +36,13 @@ SELECT Name, Department, Salary
 FROM employees
 WHERE Salary > 60000;
 
+----Updated salary for engineering workers
+/* Update the salary of all employees in the Engineering department
+   by increasing it by 10% */
 UPDATE employees
-SET Salary = 70000
-WHERE Name = 'John Doe';
+SET Salary = Salary * 1.10
+WHERE Department = 'Engineering';
 
+SELECT Name, Department, Salary
+FROM employees
+WHERE Department = 'Engineering';
